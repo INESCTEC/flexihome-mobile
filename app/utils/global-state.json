@@ -1,0 +1,250 @@
+[
+  [
+    {
+      "userid": "0059d379-d332-4165-936d-8c951708740b",
+      "name": "Hays"
+    },
+    {
+      "userid": "67ea7c4e-be27-4e7e-9015-3450d6ba6c44",
+      "name": "Dickerson"
+    },
+    {
+      "userid": "d22606dd-c59b-47cf-9454-6210989389d8",
+      "name": "Carver"
+    },
+    {
+      "userid": "e66134a8-b135-4a57-b56a-7fb9f5660b58",
+      "name": "Bass"
+    },
+    {
+      "userid": "e8d642eb-00f1-47e3-bd3d-737db6487cf2",
+      "name": "Dyer"
+    },
+    {
+      "userid": "76072314-53f3-4bd7-8c5c-f9d199dbeea3",
+      "name": "Flores"
+    },
+    {
+      "userid": "3bf1b488-a140-4f0a-b27b-dda3f55490de",
+      "name": "Cunningham"
+    },
+    {
+      "userid": "800834ef-60ae-4a32-96e5-54dc327c432a",
+      "name": "Mooney"
+    },
+    {
+      "userid": "0809ef1d-17de-498f-8a25-29c3e860cd99",
+      "name": "Hale"
+    },
+    {
+      "userid": "89af56a9-d2cd-4cfe-8dc8-c15d7ff725ff",
+      "name": "Barrett"
+    }
+  ],
+  [
+    {
+      "userid": "981be8d1-240f-4fde-98c0-91fd3a3fb5b6",
+      "name": "Olivia"
+    },
+    {
+      "userid": "9b8a568a-b46b-4652-8f8e-f3cb006e0480",
+      "name": "Jewell"
+    },
+    {
+      "userid": "08f3b434-4d48-4870-9b36-0b33a174583b",
+      "name": "Amber"
+    },
+    {
+      "userid": "c9be99c0-0b12-419e-8dc8-50a0ceaefac3",
+      "name": "Sondra"
+    },
+    {
+      "userid": "329dd1b8-3ec5-4d36-aea9-de8d8c2c556f",
+      "name": "Hilda"
+    },
+    {
+      "userid": "caaf32a3-759e-4d32-b440-b6abd8a62d02",
+      "name": "Lupe"
+    },
+    {
+      "userid": "92335c91-ba8e-466a-aeda-74716f01b4a3",
+      "name": "Jami"
+    },
+    {
+      "userid": "e93d600c-a559-44d3-ad3e-287367129ed2",
+      "name": "Mable"
+    },
+    {
+      "userid": "b4f13af6-1256-4a82-95ce-a2dd2e34ec7c",
+      "name": "Barbra"
+    },
+    {
+      "userid": "1697c9b3-d9a9-4fa7-8ac4-47c8abf8662a",
+      "name": "Candy"
+    }
+  ],
+  {},
+  {
+    "userId": "60f821fb-e5d7-4f1a-a367-5dacecb0acd2",
+    "appliances": [
+      {
+        "applid": "62167d532a08177f41951c18",
+        "type": "water_heater",
+        "name": "Electric Water Heater",
+        "status": "set"
+      },
+      {
+        "applid": "62167d53f9ef0bbae8577881",
+        "type": "pump",
+        "name": "Heat Pump",
+        "status": "off"
+      },
+      {
+        "applid": "62167d5389d4df1fb13c482a",
+        "type": "washing-machine",
+        "name": "Washing Machine I",
+        "status": "set"
+      },
+      {
+        "applid": "62167d53254f0130cad7c346",
+        "type": "washer",
+        "name": "Dish Washer",
+        "status": "set"
+      },
+      {
+        "applid": "62167f5b93a117f9f6e0b25f",
+        "type": "meter",
+        "name": "Energy Meter",
+        "status": "set"
+      },
+      {
+        "applid": "62167d53aada0acf5addf7ab",
+        "type": "washing-machine",
+        "name": "Washing Machine II",
+        "status": "on"
+      }
+    ]
+  },
+  {
+    "applid": "61fd4cd46009645f187c9a07",
+    "temperature": 10,
+    "baths": 1,
+    "start": ["01:30"],
+    "style": "user",
+    "mode": "(sai: o mesmo que program)",
+    "swing": true,
+    "week": [
+      {
+        "id": "Sun",
+        "value": false
+      },
+      {
+        "id": "Mon",
+        "value": false
+      },
+      {
+        "id": "Tue",
+        "value": true
+      },
+      {
+        "id": "Wed",
+        "value": false
+      },
+      {
+        "id": "Thu",
+        "value": false
+      },
+      {
+        "id": "Fri",
+        "value": true
+      },
+      {
+        "id": "Sat",
+        "value": true
+      }
+    ],
+    "next_ativations": ["2022-02-02T06:42:44", "2022-02-02T03:50:27"],
+    "program": 5,
+    "program_modes": [
+      {
+        "label": "Quick",
+        "value": 1
+      },
+      {
+        "label": "Cotton",
+        "value": 2
+      },
+      {
+        "label": "Efficient",
+        "value": 3
+      },
+      {
+        "label": "Whites",
+        "value": 4
+      },
+      {
+        "label": "Super Clean",
+        "value": 5
+      }
+    ],
+    "e_consumption": 5.74,
+    "e_consumption_total": 8.18,
+    "e_generation": 4.91,
+    "e_generation_total": 5.68,
+    "contrated_power": "6,9",
+    "p_consumption": 15.25,
+    "p_consumption_total": 15.95,
+    "p_generation": 12.17,
+    "p_generation_total": 9.97,
+    "ch_soc": "69%",
+    "status": "on"
+  },
+
+  {
+    "userId": "f9753d9f-ebd2-4f2e-94fb-afe32544b307",
+    "appliances": [
+      {
+        "applid": "61fd66aaea514171cad57f57",
+        "type": "ev-station",
+        "name": "Charger",
+        "status": "on"
+      },
+      {
+        "applid": "61fd66aa6e275532bd829f8d",
+        "type": "meter",
+        "name": "Energy Meter",
+        "status": "on"
+      },
+      {
+        "applid": "61fd66aa4299fc7f939b441c",
+        "type": "air-cond",
+        "name": "Home Air Conditioner",
+        "status": "off"
+      },
+      {
+        "applid": "61fd66aa47f04f5858f6ef6d",
+        "type": "ev-station",
+        "name": "Charger II",
+        "status": "set"
+      },
+      {
+        "applid": "61fd66aaf5f3936824ca0e6b",
+        "type": "air-cond",
+        "name": "Air Conditioner II",
+        "status": "on"
+      },
+      {
+        "applid": "61fd66aae2864bddb392945d",
+        "type": "washing-machine",
+        "name": "Washing Machine",
+        "status": "off"
+      },
+      {
+        "applid": "61fd66aa85a92315bed41ee6",
+        "type": "pump",
+        "name": "Heat Pump",
+        "status": "on"
+      }
+    ]
+  }
+]

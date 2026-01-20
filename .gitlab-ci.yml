@@ -1,0 +1,30 @@
+# Order of the stages
+stages:
+  - deploy
+
+mirror-to-github:
+  stage: deploy
+  image: docker
+  tags:
+    - docker
+  variables:
+    GIT_STRATEGY: clone
+  only:
+  - github-mirror
+  script:
+  - apk add --no-cache git
+  - cd $CI_PROJECT_DIR
+  - git checkout github-mirror
+  - LAST_COMMIT_MSG=$(git log --format=%B -n 1)
+  - LAST_COMMIT_NAME=$(git log -1 --pretty=format:'%an')
+  - LAST_COMMIT_EMAIL=$(git log -1 --pretty=format:'%ae')
+  - git clone https://oauth2:${GITHUB_TOKEN}@github.com/INESCTEC/flexihome-mobile.git
+    github
+  - rm -rf .git
+  - mv github/.git .git
+  - rm -rf github
+  - git add -A
+  - git config user.email "$LAST_COMMIT_EMAIL"
+  - git config user.name "$LAST_COMMIT_NAME"
+  - git commit -m "$LAST_COMMIT_MSG"
+  - git push
